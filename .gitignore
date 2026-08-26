@@ -15,3 +15,9 @@ node_modules/
 
 # local planning docs (superpowers)
 docs/superpowers/
+
+# macOS
+.DS_Store
+
+# 用户的其他项目（870MB，不属于本课程仓库）
+pi-textbook/

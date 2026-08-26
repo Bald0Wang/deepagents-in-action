@@ -1,0 +1,7 @@
+# 本地环境（含 API Key，切勿提交）
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc

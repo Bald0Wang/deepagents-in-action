@@ -1,0 +1,13 @@
+# 测试产生的临时目录
+.sandbox/
+.backend_root/
+.guard_root/
+.wrap_root/
+
+# Python
+__pycache__/
+*.pyc
+
+# 本地环境（复用 ch02，含 API Key，切勿提交）
+.env
+.venv/
