@@ -1,0 +1,17 @@
+[project]
+name = "ch06-async-subagents"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "ddgs>=9.15.0",
+    "deepagents>=0.7.6",
+    "langchain-openai>=1.5.1",
+    "langgraph-cli[inmem]>=0.4.31",
+    "langgraph-sdk>=0.4.3",
+    "tavily-python>=0.7.27",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
