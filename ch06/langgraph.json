@@ -2,7 +2,11 @@
   "dependencies": ["./"],
   "graphs": {
     "supervisor": "./graphs/supervisor.py:graph",
-    "researcher": "./graphs/researcher.py:graph"
+    "researcher": "./graphs/researcher.py:graph",
+    "sync_supervisor": "./graphs/sync_supervisor.py:graph",
+    "async_supervisor": "./graphs/async_supervisor.py:graph",
+    "timed_researcher": "./graphs/timed_researcher.py:graph",
+    "hybrid_supervisor": "./graphs/hybrid_supervisor.py:graph"
   },
   "env": "./.env"
 }

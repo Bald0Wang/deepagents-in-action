@@ -1,0 +1,7 @@
+{
+  "source": {"kind": "uv", "root": ".."},
+  "graphs": {
+    "remote_coder": "./remote/graphs/remote_coder.py:graph"
+  },
+  "env": "./.env"
+}
