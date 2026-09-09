@@ -1,0 +1,15 @@
+# 虚拟环境
+.venv/
+
+# 环境变量（含 API Key，切勿提交）
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# 运行时沙箱：由 service.py 在启动时从 knowledge/ 与 skills/ 播种生成
+.sandbox/
+
+# 生成的图表产物
+out/

@@ -1,0 +1,16 @@
+[project]
+name = "deepagents-capstone-ta"
+version = "0.1.0"
+description = "综合大作业：带沙箱的 Agent 客服管理系统（课程内容答疑助教）"
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents>=0.7.13",
+    "langchain-openai>=1.6.0",
+    "langgraph>=1.2.0",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
